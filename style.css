@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+  background: linear-gradient(to right, #d2fde6, #dda7fd);
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.quotes {
+  border: 2px solid;
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  background-color: #f4edea;
+}
+
+.generate {
+  text-align: center;
+}
+
+.quotes p,
+.quotes h3 {
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: none;
+  background-color: #1674ff;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 620px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .quotes p,
+  .quotes h3 {
+    font-size: 0.8rem;
+  }
+}
